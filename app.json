@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "EmojiSmash",
+    "slug": "EmojiSmash",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#25292e"
+    },
+    "assetBundlePatterns": [
+      "*/"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.brunocampioni.EmojiSmash"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "67b40a8d-8954-48e4-b8ee-0e13115949d2"
+      }
+    }
+  }
+}
